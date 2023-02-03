@@ -101,7 +101,7 @@
     }
     .office_img{
         margin-top: 10px;
-        width: 50%;
+        /* width: 50%; */
     }
     /* ------SECTION SCROLL------ */
     .scroll_block{
@@ -415,7 +415,7 @@
     }
     .office_img{
         margin-top: 10px;
-        width: 50%;
+        /* width: 50%; */
     }
     /* ------FOOTER--------------- */
     .message textarea.form__input{
