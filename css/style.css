@@ -33,7 +33,8 @@ main{
 
 /* HEADER */
 header{
-  background: right 0% / 60% 60% no-repeat url(../image/header.png);
+  background: right 0% / 60% 60% no-repeat url(../image/header.webp
+  );
 }
 .header-container{
   display: -webkit-box;
@@ -184,7 +185,7 @@ header{
 }
 .list li:nth-child(n+2){
   list-style-position: outside;
-  list-style-image: url(../image/marker.png);
+  list-style-image: url(../image/marker.webp);
 }
 .list li:nth-child(n+2)::marker{
   font-size: 2px;
@@ -253,7 +254,7 @@ header{
 
 /* -------SECTION 2------- */
 .second_block{
-  background: no-repeat url(../image/offiicebg.png);
+  background: no-repeat url(../image/offiicebg.webp);
   height: 1085px;
 }
 .main_block_office{
@@ -396,7 +397,7 @@ header{
   margin-top: 25px;
 }
 .office_list li{
-  list-style: url(../image/networkList.png);
+  list-style: url(../image/networkList.webp);
   list-style-position: inside;
 }
 .office_desc{
@@ -624,7 +625,7 @@ header{
 }
 /* PRICE BLOCK */
 .price_block{
-  background: no-repeat url(../image/price_backroung.png);
+  background: no-repeat url(../image/price_backroung.webp);
 }
 .price_wrapper{
   padding: 220px 0 80px 0;
@@ -864,7 +865,7 @@ footer{
   transition-delay: 200ms;
 }
 .bottom-footer{
-  background: no-repeat 0% / 70%  url(../image/bgbottomfooter.png);
+  background: no-repeat 0% / 70%  url(../image/bgbottomfooter.webp);
 }
 .footer{
   padding: 10% 0 0 0;
