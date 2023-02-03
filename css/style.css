@@ -30,8 +30,6 @@ body{
 main{
   flex:1 1 auto;
 }
-
-/* HEADER */
 header{
   background: right 0% / 60% 60% no-repeat url(../image/header.webp
   );
@@ -125,7 +123,6 @@ header{
 #nav-checkbox:checked~label.toggle .menu{
   display: none;
 }
-/* Header block */
 .main_container{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,8 +200,6 @@ header{
   color: white;
   font-size: 14pt;
 }
-
-/* -------SECTION 1------- */
 .first_block{
   background: #f2f7fd;
   text-align: center;
@@ -254,9 +249,6 @@ header{
   border-radius: 50px;
   text-decoration: none;
 }
-/* -------------- */
-
-/* -------SECTION 2------- */
 .second_block{
   background: no-repeat url(../image/offiicebg.webp);
   height: 1085px;
@@ -279,9 +271,6 @@ header{
   font-family: "SFProDisplay Regular";
   font-style: 16pt;
 }
-
-
-/* TABS */
 .office_tabs_block{
   padding: 0 10%;
   margin-top: 30px;
@@ -327,7 +316,6 @@ header{
   color: white;
   margin-top: 30px;
 }
-
 .backoffice_tabs{
   margin-top: 35px;
   text-align: center;
@@ -364,8 +352,6 @@ header{
   border-bottom: 5px solid #54cff0;
   background: white;
 }
-
-/* NETWORK */
 .office{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,7 +408,6 @@ header{
   position: relative;
   width: 45%;
 }
-
 .frontoffice_tabs{
   margin-top: 35px;
   text-align: center;
@@ -445,9 +430,6 @@ header{
 .active[data-tab-content-front]{
   display: block;
 }
-/* -------------- */
-
-/* SCROLL SECTION */
 .scroll_block{
   padding: 5% 10%;
 }
@@ -539,8 +521,6 @@ header{
   text-align: center;
   border-bottom-left-radius:50px; 
 }
-
-/* ANALYTIC BLOCK*/
 .analytic_block{
   background: #f2f7fd;
   padding: 50px 0;
@@ -624,7 +604,6 @@ header{
   -webkit-box-shadow:0 0 20px rgba(13, 50, 216, 0.5);
           box-shadow:0 0 20px rgba(13, 50, 216, 0.5);
 }
-/* PRICE BLOCK */
 .price_block{
   background: no-repeat url(../image/price_backroung.webp);
 }
@@ -727,8 +706,6 @@ header{
   background: -o-linear-gradient(left, #822eed, #ba5cf9);
   background: linear-gradient(to right, #822eed, #ba5cf9);
 }
-
-/* ABOUT */
 .about_wrapper{
   padding: 0;
   margin: 0 10%;
@@ -829,7 +806,6 @@ header{
   height: 50px;
   margin-right: 10px;
 }
-/* MISSION */
 .mission{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -860,7 +836,6 @@ header{
   color: #060839;
   margin: 0px 20px 40px 20px;
 }
-/* FOOTER */
 footer{
   background: #f2f7fd;
   transition-delay: 200ms;
@@ -988,10 +963,6 @@ footer{
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
-
-/* -------POPUP-------- */
-
 .popup{
   z-index: 2000;
   position:fixed;
@@ -1016,7 +987,6 @@ footer{
           transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
   opacity: 1;
 }
-
 .popup__body {
   min-height: 100px;
   display: -webkit-box;
