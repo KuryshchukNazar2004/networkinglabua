@@ -18,6 +18,268 @@
         color: white;
         font-family: "SFProDisplay Regular";
       }
+      .mission{
+        margin-bottom: 40px;
+      }
+
+      /* FIRST BLOCK */
+    .main-text_container{
+      max-width: 100%;
+      margin-left: 10px;
+      margin-left: 40px;
+    }
+    .btn-generation{
+        width: 100%;
+        font-size: 14pt;
+        margin: 0 auto;
+    }
+    .first-block_img{
+        margin-top: 30px;
+        height: 30vh;
+        margin-left: -300px;
+    }
+    /* -------SECTION 1------- */
+    .view_container{
+      width: 100%;
+    }
+    .view_cont_setup{
+        font-size: 18pt;
+    }
+    .view_cont_create{
+        font-size: 14pt;
+    }
+    /* -------SECTION 2------- */
+    .office_tabs_block{
+      padding: 0;
+    }
+    .main_block_text{
+        width: 100%;
+        margin: auto;
+        color: white;
+    }
+    .tab {
+        font-size: 16pt;
+    }
+    .tabs_title{
+        font-size: 16pt;
+    }
+    .tab_office{
+        font-size: 10pt;
+        padding: 5px 10px;
+        border-radius: 0 20px 0 0;
+    }
+    .office_body{
+        background: white;
+        border-bottom-left-radius: 50px;
+      }
+    .office{
+        padding-top: 10px;
+    }
+    .office_content_desc{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      font-size: 12pt;
+      margin-left: 10px; 
+  }
+    .office_desc{
+        background: #e6f1ff;
+        border-bottom-left-radius: 50px;
+      }
+    .office_content_desc_text{
+        width: 50%;
+        
+    }
+    .office_desc p{
+        padding: 20px 25px;
+        width: 100%;
+        font-size: 12pt;
+    }
+    .office_img{
+        margin-top: 10px;
+        width: 50%;
+    }
+    /* ------SECTION SCROLL------ */
+    .scroll_block{
+      padding: 0;
+  }
+  .scroll_menu_title{
+      font-size: 20pt;
+      width: 100%;
+      text-align: center;
+  }
+  .scroll-list ul {
+      list-style:none;
+      height: 500px;
+      margin:10px;
+      padding-bottom: 5%;
+    }
+    .scroll-list li{
+      list-style:none;
+      padding:0;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      margin-top: 25px;
+      width: 100%;
+      border-bottom-left-radius:20px; 
+      border-top-right-radius: 20px;
+      height: 150px;
+    }
+    .scroll-list_content_text{
+      width: 100%;
+      padding: 0;
+    }
+    .scroll-text-title{
+      font-size: 14pt;
+    }
+    .scroll-text-desc{
+      margin-top: 5px;
+      font-size: 12pt;
+    }
+    .scroll-list-icon{
+      width: 170px;
+      height: 150px;
+      padding: 10px;
+      background: #e6f1ff;
+    }
+    .scroll-list-name{
+      height: 150px;
+      font-size: 15pt;
+      border-bottom-left-radius:20px; 
+    }
+
+    /* ------ANALYTIC BLOCK------- */
+    .analytic_block{
+      padding: 10px 0;
+    }
+    .analytic_content{
+      margin: 0;
+    }
+    .analytic_img_main{
+      width: 70%;
+    }
+    .analytic_box{
+      margin: 10px auto;
+    }
+    .analytic_main_text{
+      text-align: center;
+    }
+    .analytic_main_text p{
+      font-size: 18pt;
+    }
+
+    /* -------PRICE BLOCK-------- */
+    .price_block{
+      background:  no-repeat url(../image/price_backroung.png);
+      background-size:190em;
+    }
+    .price_wrapper{
+      padding: 20px 0;
+    }
+    .price_block_title{
+      font-size: 22pt;
+      text-align: center;
+    }
+    .box_title{
+      padding-top: 25px;
+      padding-bottom: 20px;
+      font-size: 18pt;
+    }
+    .price_box{
+      margin-left: 0;
+      margin-top: 20px;
+      margin-left: 20px;
+      text-align: center;
+      border-top-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+    }
+    .box_desc{
+      background: white;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
+      padding: 20px 30px 40px 30px;
+    }
+    .box_sum{
+      font-size: 18pt;
+    }
+    .box_sum b{
+      font-size: 35pt;
+    }
+    .box_desc ul li{
+      list-style: none;
+      margin-top: 10px;
+      font-size: 15pt;
+    }
+    /* ABOUT */
+    .about_wrapper{
+      margin: 0 auto;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      }
+      .about_company{
+          margin-top: 20px;
+      }
+      .about_company_text{
+          margin-top: 10px;
+          margin-left: 50px;
+      }
+      .about_company_text h1{
+          font-size: 22pt;
+      }
+      .about_company_text p{
+          margin-top: 15px;
+          font-size: 15pt;
+      }
+      .about_desc{
+        
+          border-bottom-left-radius:50px; 
+          border-top-right-radius: 50px;
+          width: 100%;
+          margin: 0 20px;
+          margin-top: 20px;
+      }
+      .about_desc_content{
+          text-align: left;
+          margin-left: 30px;
+          color: white;
+          margin-top: 20px;
+          width: 50%;
+      }
+      .about_desc_text{
+          text-align: left;
+          font-size: 18pt;
+          margin-top: 20px;
+        }
+        .about_desc_author{
+          margin-top: 25px;
+          font-size: 14pt;
+        }
+        .ironman_img{
+          width: 40%;
+          margin-top: 0;
+        }
+        .company_values{
+          margin: 0 auto;
+          margin-top: 50px;
+        }
+        .company_values_content{
+          text-align: left;
+          margin: 0 40px;
+        }
+
 
 }
 /* Small Device, Tables */
@@ -86,7 +348,7 @@
       padding: 20px 0;
     }
     .info_date{
-      margin-left: 20px;
+      margin-left: -160px;
     }
     textarea.form__input{
       width: 100px;
@@ -105,17 +367,16 @@
         margin-left: 10px;
     }
     .btn-generation{
-        font-size: 10pt;
+        width: 100%;
+        font-size: 9pt;
     }
     .first-block_img{
         margin-top: 30px;
         height: 30vh;
+        margin-left: 0;
     }
 
     /* -------SECTION 1------- */
-    .view_container{
-        width: 100%;
-    }
     .view_cont_setup{
         font-size: 18pt;
     }
@@ -143,10 +404,6 @@
         padding: 5px 10px;
         border-radius: 0 20px 0 0;
     }
-    .office_body{
-        background: white;
-        border-bottom-left-radius: 50px;
-      }
     .office{
         padding-top: 10px;
     }
@@ -154,17 +411,11 @@
         font-size: 8pt;
         margin-left: 10px; 
     }
-    .office_desc{
-        background: #e6f1ff;
-        border-bottom-left-radius: 50px;
-      }
     .office_content_desc_text{
         width: 100%;
     }
     .office_desc p{
-        padding: 20px 25px;
-        width: 100%;
-        font-size: 10pt;
+        font-size: 8pt;
     }
     .office_img{
         margin-top: 10px;
@@ -174,16 +425,6 @@
     .message textarea.form__input{
         width: 100%;
       }
-    /* ----------POPUP------------ */
-    .popup__content{
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
-    }
-    .popup__body {
-        padding: 0;
-        display: block;
-    }
     /* ------SECTION SCROLL------ */
     .scroll_block{
         padding: 0;
@@ -253,34 +494,11 @@
       }
 
       /* -------PRICE BLOCK-------- */
-      .price_block{
-        background:  no-repeat url(../image/price_backroung.png);
-        background-size:190em;
-      }
-      .price_wrapper{
-        padding: 20px 0;
-      }
       .price_block_title{
         font-size: 20pt;
-        text-align: center;
       }
       .box_title{
-        padding-top: 25px;
-        padding-bottom: 20px;
         font-size: 16pt;
-      }
-      .price_box{
-        margin-left: 0;
-        margin-top: 10px;
-        text-align: center;
-        border-top-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-      }
-      .box_desc{
-        background: white;
-        border-bottom-left-radius: 50px;
-        border-top-right-radius: 50px;
-        padding: 20px 30px 40px 30px;
       }
       .box_sum{
         font-size: 14pt;
@@ -289,8 +507,6 @@
         font-size: 30pt;
       }
       .box_desc ul li{
-        list-style: none;
-        margin-top: 10px;
         font-size: 12pt;
       }
       /* ABOUT */
@@ -302,7 +518,7 @@
             margin-top: 20px;
         }
         .about_company_text{
-            margin-top: 10px;
+          margin: 0;
         }
         .about_company_text h1{
             font-size: 20pt;
@@ -312,27 +528,24 @@
             font-size: 12pt;
         }
         .about_desc{
-            border-bottom-left-radius:50px; 
-            border-top-right-radius: 50px;
             width: 100%;
+            margin: 0;
         }
         .about_desc_content{
-            margin-left: 0;
-            color: white;
+            margin-left: 10px;
             margin-top: 20px;
         }
         .about_desc_text{
             text-align: left;
-            font-size: 14pt;
+            font-size: 12pt;
             margin-top: 20px;
-            margin-left: 20px;
           }
           .about_desc_author{
             margin-top: 15px;
             font-size: 10pt;
           }
           .ironman_img{
-            width: 50%;
+            width: 60%;
             margin-top: 0;
           }
           .company_values{
@@ -344,12 +557,6 @@
             margin: 0 40px;
           }
 }
-/* Extra Small Device, Phones */
-@media only screen and (max-width: 480px){
-    
-
-}
-
 
 /* ---------------------------- */
 @media (min-width: 768px){
@@ -375,11 +582,6 @@
     } 
 }
 
-
-
-  @media  screen and (max-width:768px){
-    
-  }
   @media  screen and (min-width:1140px){
     .footer_title{
       max-width: 30%;
