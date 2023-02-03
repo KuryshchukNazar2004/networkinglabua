@@ -160,7 +160,7 @@
       margin: 0;
     }
     .analytic_img_main{
-      width: 70%;
+      /* width: 70%; */
     }
     .analytic_box{
       margin: 10px auto;
@@ -266,10 +266,6 @@
         .about_desc_author{
           margin-top: 25px;
           font-size: 14pt;
-        }
-        .ironman_img{
-          width: 40%;
-          margin-top: 0;
         }
         .company_values{
           margin: 0 auto;
@@ -480,9 +476,6 @@
       .analytic_content{
         margin: 0;
       }
-      .analytic_img_main{
-        width: 100%;
-      }
       .analytic_box{
         margin: 10px auto;
       }
@@ -543,10 +536,6 @@
           .about_desc_author{
             margin-top: 15px;
             font-size: 10pt;
-          }
-          .ironman_img{
-            width: 60%;
-            margin-top: 0;
           }
           .company_values{
             margin: 0 auto;
